@@ -1,0 +1,13 @@
+file_format: "1"
+id: juubo
+name: Juubo40
+type: shield
+url: https://github.com/juusolonen/juubo
+requires: [nice_nano]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - juubo_left
+  - juubo_right
